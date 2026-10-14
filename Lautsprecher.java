@@ -21,4 +21,23 @@ public class Lautsprecher
     {
         return bluetooth;
     }
+    
+    public  void setHersteller (String neuHersteller)
+    
+    {
+        hersteller = neuHersteller;
+    }
+    
+        public  void setWatt (int neuWatt)
+    
+    {
+        watt = neuWatt;
+    }
+    
+        public  void setBluetooth (boolean neuBluetooth)
+    
+    {
+        bluetooth = neuBluetooth;
+    }
+    
 }
