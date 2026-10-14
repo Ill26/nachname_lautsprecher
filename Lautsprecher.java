@@ -11,13 +11,13 @@ public class Lautsprecher
     }
     
     
-        public int getWatt()
+    public int getWatt()
     {
         return watt;
     }
     
     
-        public boolean getBluetooth()
+    public boolean getBluetooth()
     {
         return bluetooth;
     }
@@ -28,23 +28,31 @@ public class Lautsprecher
         hersteller = neuHersteller;
     }
     
-        public  void setWatt (int neuWatt)
+    public  void setWatt (int neuWatt)
     
     {
         watt = neuWatt;
     }
     
-        public  void setBluetooth (boolean neuBluetooth)
+    public  void setBluetooth (boolean neuBluetooth)
     
     {
         bluetooth = neuBluetooth;
     }
     
-    
-        public Lautsprecher(String neuHersteller, int neuWatt, boolean neuBluetooth)
+    public Lautsprecher(String neuHersteller, int neuWatt, boolean neuBluetooth)
     {
         setHersteller(neuHersteller);
         setWatt(neuWatt);
         setBluetooth(neuBluetooth);
+    }
+    
+    //hersteller Lautsprecher: watt Watt - bluetooth
+    //hersteller Lautsprecher: watt Watt - bluetooth
+    //hersteller Lautsprecher: watt Watt - bluetooth
+    
+    public void printLautsprecher()
+    {
+        System.out.println(hersteller+" Lautsprecher: "+watt+" Watt - "+bluetooth);
     }
 }
